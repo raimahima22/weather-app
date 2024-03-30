@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="main">
+    <nav>
+        <div class ="home">
+            <div id="weatherResult">
+                <button id="storeButton"><a href=weather.php>Past weather data</a></button>
+            </div>
+        <div class="index">
+           <input type="text" placeholder="Search location.." id="inputPlace">
+        </div>
+            <button id="search">search</button>
+        </div>
+    </nav>
+    <div id="container">
+    <div id="temp">
+        <p1 id="first_temp"></p1><br><br>
+        <p2 id="location"></p2><img src="place.png"><br>
+        <p3 id="max_temp"></p3>
+        <p4 id="min_temp"></p4>
+        
+    </div>
+    <div id="icon_code">
+        <img id="code">
+        <div id="info">
+            <p id="weather_info"></p>
+        </div>
+    </div>
+    <div id="time">
+        <p5 id="date"></p>
+        <p6 id="day"></p6>
+    </div>
+    <div id="pressure">
+        <img src="pressure.png" alt="pressure">
+        <h>Pressure</h>
+        <p id="second_pressure"></p>
+    </div>
+    <div id="humidity">
+        <img src="humid.png" alt="humidity">
+        <h>Humidity</h>
+        <p id="third_humid"></p>
+    </div>
+    <div id="wind">
+        <img src="wind.png" alt="wind speed">
+        <h>Wind Speed</h>
+        <p id="fourth_speed"></p>
+    </div>
+    <div id="visibility">
+        <img src="visibility.png" alt="rain">
+        <h>Visibility</h>
+        <p id="fifth_visible"></p>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

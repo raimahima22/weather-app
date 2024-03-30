@@ -1,0 +1,91 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  background-image: url("sky.jpg"); 
+  background-size: cover;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.index {
+  margin-right: 10px;
+}
+#inputPlace {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  outline: none;
+  width: 250px;
+}
+
+#search {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#search:hover {
+  background-color: #45a049;
+}
+.container{
+margin-top:20px;
+display: flex;
+flex-wrap: wrap;
+height:100%;
+}
+.card{
+width:15%;
+height:auto;
+color:white;
+padding: 35px;
+margin: 30px auto;
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+justify-content: space-around;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.1);
+}
+
+.date {
+font-size:20px;
+margin-bottom: 10px;
+width:100%;
+text-align: center;
+}
+
+.pressure,
+.humidity,
+.wind_speed,
+.visibility{
+margin: 5px 0;
+margin-left:30px;
+width:100%;
+
+}
+.weather_condition{
+font-size:larger;
+margin-top:-20px;
+width:100%;
+margin-right:25px;
+text-align: right;
+}
+.temperature{
+font-size:20px;
+}
+.icon img {
+width: 100px;
+height: 100px;
+
+}
+
+
